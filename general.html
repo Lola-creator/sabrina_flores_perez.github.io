@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>General</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        body, h1 {
+            font-family: "Raleway", Arial, sans-serif;
+        }
+
+        h1 {
+            letter-spacing: 6px;
+            font-size: 60px;
+        }
+
+        /* Estilos para el fondo de imagen */
+        .header-bg {
+            background-image: url('https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .header-bg h1 {
+            font-size: 100px;
+            font-weight: bold;
+        }
+
+        /* Estilo de la sección general con grid */
+        .general-section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Cuatro columnas iguales */
+            gap: 10px;
+            padding: 20px;
+            font-size: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Estilo para las etiquetas (age, career) */
+        .label-box {
+            font-weight: bold;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        /* Estilo para los valores */
+        .value-box {
+            text-align: left;
+            border-bottom: 1px solid #f8d7da; /* Línea bajo cada valor */
+            padding-bottom: 5px;
+        }
+
+        /* Estilo del texto centrado debajo del encabezado */
+        .intro-text {
+            font-size: 24px; /* Tamaño de letra más grande */
+            text-align: center;
+            padding: 40px 60px; /* Espaciado en los márgenes superior e inferior */
+            color: #333;
+            margin: 0 auto;
+            max-width: 800px; /* Limita el ancho para centrado */
+            line-height: 1.5; /* Espacio entre líneas */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado con imagen de fondo -->
+    <div class="w3-content header-bg" style="max-width:1500px;">
+        <header class="w3-panel w3-center w3-opacity">
+            <h1>DATOS GENERALES</h1>
+        </header>
+    </div>
+
+    <!-- Texto centrado debajo del encabezado -->
+    <div class="w3-content intro-text">
+        <p>Hi, I'm Sabrina and it's nice to meet you. I'm studying computer science and learning how to abstract ideas to make them real, programming as they say.<br> My goal is to find out more about cybersecurity and maybe work there one day.
+I like to help when needed, so don't worry about asking. Also, I like to learn things I don't understand at all.
+I love dogs, by the way!</p>
+    </div>
+
+    <!-- Contenido de la Sección General -->
+    <div class="w3-center w3-padding-64">
+        <div class="general-section">
+            <!-- Fila 1 -->
+            <div class="label-box">Age</div>
+            <div class="value-box">18</div>
+            <div class="label-box">Career</div>
+            <div class="value-box">Computer Science</div>
+
+            <!-- Fila 2 -->
+             <div class="label-box">independent courses</div>
+            <div class="value-box">Linear Algebral<br>Precalculus<br>C 
+            language courses<br>Networking (junior level)</div>         
+            <div class="label-box">Hobbies</div>
+            <div class="value-box">Reading <br>Baking cupcakes <br>Learning new things<br>
+            Zombie movies<br></div>
+
+            <!-- Fila 3 -->
+             <div class="label-box">Interests</div>
+            <div class="value-box">Cybersecurity<br> Philosophy<br>Theatre<br>Astronomy</div>
+             <div class="label-box">Family Status</div>
+            <div class="value-box">Dad<br>Mom<br>Brother<br>No pets<br>Lots of cousins, uncles and aunts</div>
+
+            <!-- Fila 4 -->
+            
+            <div class="label-box">Aspirations</div>
+            <div class="value-box">Travel the world, specifically Germany<br>
+                                    Get old books<br>
+                                    Become a better person<br>
+                                    Make those I respect proud of me</div>
+            <div class="label-box"></div>
+            <div class="label-box"></div>
+           
+            
+        </div>
+    </div>
+
+    <!-- Botón para volver al inicio centrado -->
+    <div class="w3-content w3-center w3-opacity" style="max-width:1500px">
+        <div class="w3-padding-32">
+            <div class="w3-bar w3-border">
+                <a href="index.html" class="w3-bar-item w3-center w3-button">Volver al Inicio</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
