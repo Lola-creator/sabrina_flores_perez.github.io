@@ -1,40 +1,29 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-<url>
-<loc>
-https://lola-creator.github.io/sabrina_flores_perez.github.io/
-</loc>
-<lastmod>2024-11-14T01:14:06+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>
-https://lola-creator.github.io/sabrina_flores_perez.github.io/general.html
-</loc>
-<lastmod>2024-11-14T01:14:06+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://lola-creator.github.io/sabrina_flores_perez.github.io/academico.html
-</loc>
-<lastmod>2024-11-14T01:14:06+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://lola-creator.github.io/sabrina_flores_perez.github.io/contacto.html
-</loc>
-<lastmod>2024-11-14T01:14:06+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://lola-creator.github.io/sabrina_flores_perez.github.io/index.html
-</loc>
-<lastmod>2024-11-14T01:14:06+00:00</lastmod>
-<priority>0.64</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <url>
+    <loc>https://lola-creator.github.io/sabrina_flores_perez.github.io/</loc>
+    <lastmod>2024-11-14T01:14:06+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://lola-creator.github.io/sabrina_flores_perez.github.io/general.html</loc>
+    <lastmod>2024-11-14T01:14:06+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lola-creator.github.io/sabrina_flores_perez.github.io/academico.html</loc>
+    <lastmod>2024-11-14T01:14:06+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lola-creator.github.io/sabrina_flores_perez.github.io/contacto.html</loc>
+    <lastmod>2024-11-14T01:14:06+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lola-creator.github.io/sabrina_flores_perez.github.io/index.html</loc>
+    <lastmod>2024-11-14T01:14:06+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>
